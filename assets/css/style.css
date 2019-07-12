@@ -106,8 +106,37 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.nav::after{
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
 /* Main */
-main {
+main{
+  display: flex;
   position: relative;
-  top: 5.2rem;
+  top: 5rem;
+}
+
+/* Header */
+
+header{
+  width: 100%;
+  height: 30rem;
+}
+
+header img{
+  display: block;
+}
+
+
+
+h1{
+  font-size: 3.5rem;
+  justify-content: left;
+  line-height: 1.3;
+  width: 35%;
 }
