@@ -12,13 +12,23 @@ html {
 
 body {
   font-size: 1.25rem;
+  position: relative;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.875;
+  margin-bottom: 0.9375rem;
+  margin-top: 0;
+  color: #333;
 }
 
 /* Navigation */
 .nav {
   height: 5.5rem;
   border-bottom: 1px solid #d3d3d3;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   background-color: white;
   z-index: 10000;
@@ -105,38 +115,83 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.nav::after{
-  content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+   
+/* header */
+header {
+  text-align: center;
 }
 
-/* Main */
-main{
-  display: flex;
-  position: relative;
-  top: 5rem;
-}
-
-/* Header */
-
-header{
-  width: 100%;
-  height: 30rem;
-}
-
-header img{
-  display: block;
-}
-
-
-
-h1{
+header h1 {
+  margin-left: 40rem;
+  margin-top: 4rem;
   font-size: 3.5rem;
-  justify-content: left;
-  line-height: 1.3;
-  width: 35%;
+  font-weight: bold;
+  width: 36%;
+  line-height: 1.4;
+  text-align: left;
+  margin-bottom: 3rem;
 }
+
+header img {
+  width: 80%;
+}
+
+header p {
+  font-size: 1.4rem;
+  width: 80%;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1
+}
+
+header cite {
+  display: inline;
+  font-size: 1.4rem;
+  text-align: left;
+}
+
+/* article about */
+.article__about {
+  text-align: left;
+  margin-top: 
+}
+
+.article__about ul {
+  list-style: none;
+  display: inline-block
+}
+
+.article__about li {
+  display: inline-block
+}
+
+
+
+/* container */
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.container > * {
+  width: 50%;
+}
+
+img {
+  width: 500px;
+} */
+
+
+
+/* .container {
+  text-align: left;
+  width: 50%;
+  transform: translateX(50%)
+}
+
+img {
+  width: 500px;
+}
+ */
