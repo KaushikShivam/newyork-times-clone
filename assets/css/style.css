@@ -246,6 +246,67 @@ header span {
   font-weight: bold;
 }
 
+/* Section Theory*/
+
+.section__theory {
+  width: 75%;
+  margin: 3rem auto;
+}
+
+.section__theory h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.section__theory > p {
+  color: #666;
+}
+
+.section__theory p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.theory__container {
+  width: 120rem;
+}
+
+
+.theory__image {
+  float: left;
+  width: 25rem;
+
+}
+
+.theory__image p{
+  margin-top: -15rem;
+  word-spacing: 0.5rem;
+  width: 95%;
+}
+
+.theory__image > img{
+  width: 25rem;
+}
+
+.theory__author {
+  clear: both;
+  content: ".";
+  display: table;
+  margin-top: 5rem;
+  padding-top: 3rem;
+} 
+
+.theory__author hr{
+  margin-bottom: 1.5rem;
+  width: 5rem;
+}
+
+.theory__author p{
+  font-size: 1.4rem;
+}
+
+
 /* .article__about {
   text-align: left;
   width: 50%;
