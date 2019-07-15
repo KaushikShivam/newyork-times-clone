@@ -257,10 +257,12 @@ header span {
   font-size: 1.7rem;
   font-weight: bold;
   padding-bottom: 0.5rem;
+  margin-left: 5rem;
 }
 
 .section__theory > p {
   color: #666;
+  margin-left: 5rem;
 }
 
 .section__theory p {
@@ -270,13 +272,12 @@ header span {
 
 .theory__container {
   width: 120rem;
+  margin-left: 5rem;
 }
-
 
 .theory__image {
   float: left;
   width: 25rem;
-
 }
 
 .theory__image p{
@@ -295,6 +296,7 @@ header span {
   display: table;
   margin-top: 5rem;
   padding-top: 3rem;
+  margin-left: 5rem;
 } 
 
 .theory__author hr{
@@ -304,6 +306,35 @@ header span {
 
 .theory__author p{
   font-size: 1.4rem;
+}
+
+/* youtube */
+.youtube__container {
+  text-align: center;
+  margin: 4rem 0; 
+}
+
+.youtube__container iframe {
+  width: 70rem;
+  height: 40rem;
+}
+
+/* section telescope */
+.section__telescope {
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.section__telescope img {
+  width: 100%;
+   text-align: center;
+ }
+ 
+ .section__telescope p {
+  margin-top: 5px;
+  line-height: 1.4;
+  font-size: 1.3rem;
+  color: #666;
 }
 
 
