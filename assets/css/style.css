@@ -404,14 +404,20 @@ header span {
   margin: 3rem 8rem;
 }
 
-
 .section__left {
   flex: 3;
+  margin-top: 3rem;
 }
 
+.section__left hr {
+  width: 88%;
+  height: 1px;
+  background-color: black;
+}
 
 .section__right {
   flex: 1;
+  margin-top: 3rem;
 }
 
 .section__related img {
@@ -419,13 +425,24 @@ header span {
   height: 18.2rem;
 }
 
+
+.section__more h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.section__more a {
+  text-decoration: none;
+  color: black;
+}
+
 .section__more > div {
   display: flex;
   flex-wrap: wrap;
-
 }
 
-.article__box{
+.article__box {
   width: 27.3rem;
   margin-right: 1.8rem;
   margin-top: 2rem;
