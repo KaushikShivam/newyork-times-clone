@@ -507,3 +507,56 @@ header span {
   font-weight: 400;  
 }
 
+/* Footer */
+
+.footer {
+  border-top: 1px solid rgb(226, 226, 226);
+  margin: 5rem 8rem 0 8rem;
+}
+
+.footer__logo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1.5rem 0;
+}
+
+.footer__logo img{
+  width: 20rem;
+}
+
+.footer__logo a:last-of-type {
+  align-self: flex-end;
+  text-decoration: none;
+  color: rgb(98, 136, 165);
+
+}
+
+
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__main h5{
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.footer__main ul {
+  font-size: 1.5rem;
+  list-style: none;
+
+}
+
+.footer__main li {
+  margin-bottom: 1rem;
+}
+
+.footer__main a {
+  text-decoration: none;
+  color: black;
+
+}
