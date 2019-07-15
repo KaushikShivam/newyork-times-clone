@@ -319,6 +319,20 @@ header span {
   height: 40rem;
 }
 
+.youtube__container p{
+  margin-top: 5px;
+  line-height: 1.4;
+  font-size: 1.7rem;
+  color: #666;
+  text-align: left;
+  margin-left: 3rem;
+}
+
+.youtube__container span{
+  font-size: 1.3rem;
+}
+
+
 /* section telescope */
 .section__telescope {
   width: 50%;
