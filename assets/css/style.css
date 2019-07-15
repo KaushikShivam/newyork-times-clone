@@ -410,19 +410,13 @@ header span {
 }
 
 .section__left hr {
-  width: 88%;
+  width: 97%;
   height: 1px;
   background-color: black;
 }
 
-.section__right {
-  flex: 1;
-  margin-top: 3rem;
-}
-
 .section__related img {
-  width: 27.3rem;
-  height: 18.2rem;
+  width: 30rem;
 }
 
 
@@ -443,7 +437,7 @@ header span {
 }
 
 .article__box {
-  width: 27.3rem;
+  width: 30rem;
   margin-right: 1.8rem;
   margin-top: 2rem;
 }
@@ -462,16 +456,54 @@ header span {
   color: black;
 }
 
-.article__box h4{
+.article__box h4 {
   margin: 0.4rem 0;
   line-height: 1.5;
 }
 
-.article__box a:hover{
+.article__box a:hover {
   color: rgb(153, 153, 153);
 }
 
-.article__box p{
+.article__box p {
   color: rgb(153, 153, 153);
   font-size: 1.2rem;
 }
+
+/* section right */
+
+.section__right {
+  flex: 1;
+  margin-top: 3rem;
+}
+
+.section__right hr {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.section__right h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section__right--list {
+  list-style: none;
+  
+}
+
+.section__right--list > li {
+  padding: 2rem;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.section__right--list a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 400;  
+}
+
