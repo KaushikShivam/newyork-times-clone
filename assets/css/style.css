@@ -543,6 +543,7 @@ header span {
   margin-top: 3rem;
   margin-bottom: 1.5rem;
   font-size: 1.3rem;
+  color: rgb(51, 51, 51);
 }
 
 .footer__main ul {
@@ -560,3 +561,12 @@ header span {
   color: black;
 
 }
+
+.footer__main a:hover{
+  text-decoration: underline;
+}
+
+.footer_subscribe .subscribe {
+  margin-bottom: 6rem !important; /* FIX ME */
+}
+
