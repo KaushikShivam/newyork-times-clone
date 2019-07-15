@@ -399,6 +399,62 @@ header span {
 
 /* MORE SECTION */
 
-/* .section__more {
-  width: 
-} */
+.section__related {
+  display: flex;
+  margin: 3rem 8rem;
+}
+
+
+.section__left {
+  flex: 3;
+}
+
+
+.section__right {
+  flex: 1;
+}
+
+.section__related img {
+  width: 27.3rem;
+  height: 18.2rem;
+}
+
+.section__more > div {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.article__box{
+  width: 27.3rem;
+  margin-right: 1.8rem;
+  margin-top: 2rem;
+}
+
+.article__box figcaption {
+  text-align: right;
+  font-size: 1.1rem;
+  color: rgb(153, 153, 153);
+  margin-top: 0.5rem;
+}
+
+.article__box a {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.article__box h4{
+  margin: 0.4rem 0;
+  line-height: 1.5;
+}
+
+.article__box a:hover{
+  color: rgb(153, 153, 153);
+}
+
+.article__box p{
+  color: rgb(153, 153, 153);
+  font-size: 1.2rem;
+}
