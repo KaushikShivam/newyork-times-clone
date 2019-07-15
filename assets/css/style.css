@@ -121,6 +121,7 @@ img {
   transform: translate(-50%, -50%);
 }
    
+
 /* header */
 header {
   text-align: center;
@@ -141,12 +142,19 @@ header img {
   width: 80%;
 }
 
-header p {
-  font-size: 1.4rem;
+header p,
+header span {
+  font-size: 1.6rem;
   width: 80%;
   text-align: left;
   margin: 0 auto;
-  line-height: 1
+  line-height: 1.2;
+  color: #666;
+}
+
+header span {
+  color: #888;
+  font-size: 1.4rem
 }
 
 header cite {
