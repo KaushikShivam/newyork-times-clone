@@ -570,3 +570,29 @@ header span {
   margin-bottom: 6rem !important; /* FIX ME */
 }
 
+
+/* footer secondary */
+.footer__secondary {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  margin: 2rem 0;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+.footer__secondary li {
+  margin: 0 5px;
+}
+
+.footer__secondary a:link,
+.footer__secondary a:visited {
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+}
+
+.footer__secondary a:link,
+.footer__secondary a:visited {
+  text-decoration: none;
+  color: rgb(146, 146, 146);
+}
