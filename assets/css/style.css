@@ -76,14 +76,14 @@ img {
   padding: 1rem 2rem;
 }
 
-.nav__left {
+.nav__left ul {
   float: left;
   position: absolute;
   top:50%;
   transform: translateY(-50%);
 }
 
-.nav__left > * {
+.nav__left ul > * {
   margin-right: 2rem;
 }
 

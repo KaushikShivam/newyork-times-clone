@@ -15,28 +15,30 @@
     <!-- NAVIGATION -->
     <nav class="nav">
       <ul class="nav__list">
-        <div class="nav__left">
-          <li><a href="#"><i class="fas fa-bars"></i></a></li>
-          <li><a href="#"><i class="fas fa-search"></i></a></li>
-          <li><a class="link--black" href="#">SPACE & COSMOS</a></li>
-        </div>
+        <li class="nav__left">
+          <ul>
+            <li><a href="#"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#"><i class="fas fa-search"></i></a></li>
+            <li><a class="link--black" href="#">SPACE & COSMOS</a></li>
+          </ul>
+        </li>
         <li><a href="#"><img class="logo" src="assets/img/logo.png" alt="The New York Times logo"></a></li>
-        <div class="nav__right">
-          <li><button class="btn-default" href="#">SUBSCRIBE NOW</buttonc>
-          </li>
-          <li><button class="btn-default" href="#">LOG IN</button></li>
-        </div>
+        <li class="nav__right">
+          <ul>
+            <li><button class="btn-default">SUBSCRIBE NOW</button></li>
+            <li><button class="btn-default">LOG IN</button></li>
+          </ul>
+        </li>
       </ul>
     </nav>
 
     <!-- MAIN CONTENT -->
     <main>
-      <!-- FIXME: ADD ASIDE LATER -->
       <article>
         <!-- HEADER -->
         <header>
           <h1><em>Space Ripples Reveal Big Bang’s Smoking Gun</em></h1>
-          <section>
+          <div>
             <img
               src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp"
               alt="Picture of Alan Guth">
@@ -45,10 +47,10 @@
                 the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years
                 ago. <span>Rick Friedman for The New York Times</span> </p>
             </blockquote>
-          </section>
+          </div>
         </header>
         <!-- SECTION ABOUT -->
-        <section class="article__about">
+        <div class="article__about">
           <p>By <a href="#">Dennis Overbye</a></p>
           <div class="article__about__details">
             <p>March 17, 2014</p>
@@ -59,9 +61,9 @@
               <li><a class="social__icons" href="#"><i class="fas fa-share"></i></a></li>
             </ul>
           </div>
-        </section>
+        </div>
         <!-- SECTION CONTENT -->
-        <section class="article__content">
+        <div class="article__content">
           <div class="article--center">
             <p>
               CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son
@@ -100,12 +102,12 @@
               colleagues say, that Dr. Guth was correct.</p>
 
             <!-- SECTION LOGIN -->
-            <section class="article__login">
+            <div class="article__login">
               <hr>
               <p>Unlock more free articles.</p>
               <a href="#">Create an account or log in</a>
               <hr>
-            </section>
+            </div>
 
             <p>Inflation has been the workhorse of cosmology for 35 years, though many, including Dr. Guth, wondered
               whether it could ever be proved.</p>
@@ -339,14 +341,14 @@
 
           </div>
           <!-- SECTION TELESCOPE -->
-          <section class="section__telescope">
+          <div class="section__telescope">
             <img
               src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=90&auto=webp%20600w,https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp%201024w,https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-superJumbo.jpg?quality=90&auto=webp%202048w"
               alt="The biceps2 telescope">
             <p>The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the
               signature of a universe being wrenched violently apart
               at its birth.CreditSteffen Richter/Associated Press</p>
-          </section>
+          </div>
 
           <div class="article--center">
             <p>In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the
@@ -427,7 +429,7 @@
               the team, “you wind up at inflation.”</p>
 
           </div>
-        </section>
+        </div>
         <!-- SECTION FOOTER -->
         <footer class="article-footer">
           <p>A version of this article appears in print on March 17, 2014, Section A, Page 1 of the New York edition
@@ -446,9 +448,8 @@
 
       </article>
 
-      <!-- FIXME: Change text -->
-      <section class="section__related">
-        <section class="section__left">
+      <div class="section__related">
+        <div class="section__left">
           <!-- MORE SECTION -->
           <hr>
           <section class="section__more">
@@ -565,7 +566,7 @@
             </div>
           </section>
 
-        </section>
+        </div>
 
         <aside class="section__right">
           <hr>
@@ -585,7 +586,7 @@
 
         </aside>
 
-      </section>
+      </div>
     </main>
 
     <footer class="footer">
