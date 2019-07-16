@@ -393,9 +393,6 @@ header span {
   margin-left: 2rem;
 }
 
-.article-footer__content i {
-  font-size: 2rem;
-}
 
 /* MORE SECTION */
 
@@ -565,8 +562,25 @@ header span {
   text-decoration: underline;
 }
 
-.footer_subscribe .subscribe {
-  margin-bottom: 6rem !important; /* FIX ME */
+.footer__subscribe {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 2rem;
+
+}
+
+.subscribe {
+  margin-bottom: 1.5rem !important;
+  font-size: 1.6rem;
+
+}
+
+.subscribe i {
+  margin-right: 0.5rem;
+  width: 2rem;
+}
+
+.subscribe hr {
+  color: #eee;
 }
 
 
@@ -619,8 +633,8 @@ header span {
 
 /* social icons */
 
-.social__icons:link,
-.social__icons:visited {
+.social__list .social__icons:link,
+.social__list .social__icons:visited {
   display: block;
   height: 1.8rem;
   width: 1.8rem;
@@ -636,8 +650,15 @@ header span {
   transition: all .3s;
 }
 
-.social__icons:hover,
-.social__icons:active {
+
+.social__list  .social__icons:hover,
+.social__list  .social__icons:active {
   background-color: white;
   border: 1px solid rgb(167, 167, 167);
 }
+
+
+.social__list {
+  display: flex;
+}
+
