@@ -17,7 +17,7 @@ it uses floats and positioning with some flexbox as well.
 
 1. Clone the project to your local directory
 ```
-git clone https://github.com/KaushikShivam/smashing_magazine
+git clone https://github.com/KaushikShivam/newyork-times-clone.git
 ```
 2. Open the index.html file in your browser to view the website in all its glory (Live-server is recommended to view live changes automatically)
 
