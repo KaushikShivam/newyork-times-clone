@@ -1,15 +1,35 @@
-# New York Times Project
+# [New York Times Project](https://raw.githack.com/KaushikShivam/newyork-times-clone/development/index.html) 
 
-This is a The New York Times article page clone project that we worked on for Microverse. It uses HTML5 and CSS3,
-it uses floats and positioning with some flexbox as well.
+![New York Times Project](screenshot.png)
 
-[New York Times reference link](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+## Table of content
+- [Description](#description)
+- [Installation](#installation)
+- [Contact](#contact)
 
-Made by: 
+## Description
+This is a [The New York Times article page clone](https://raw.githack.com/KaushikShivam/newyork-times-clone/development/index.html) project that we worked on for Microverse. It uses HTML5 and CSS3,
+it uses floats and positioning with some flexbox as well. 
+[Reference link](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
-+ Rodolfo Cisneros (acosta.rodolfo.rca@gmail.com) 
 
-+ Shivam Kaushik (shivamkaushikofficial@gmail.com)
+## Installation
+
+1. Clone the project to your local directory
+```
+git clone https://github.com/KaushikShivam/smashing_magazine
+```
+2. Open the index.html file in your browser to view the website in all its glory (Live-server is recommended to view live changes automatically)
+
+## Contact
+This template was created in collaboration with Rodolfo and myself
+You can contact Rodolfo at:
+- [Email](acosta.rodolfo.rca@gmail.com)
+
+You can contact me at:
+- [Email](shivamkaushikofficial@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/shivam-kaushik-bb8162102/)
+- [Twitter](https://twitter.com/kShivamDev)
+- [Medium](https://medium.com/@shivamkaushikofficial)
 
 
-[Live site](https://raw.githack.com/KaushikShivam/newyork-times-clone/development/index.html)
